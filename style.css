@@ -1,0 +1,39 @@
+.nav {
+    background-color: rgb(88, 88, 88);
+    width: 800px;
+    height: 60px;
+    color: white;
+    margin: 0px auto;
+    padding: 0px;
+    display: flex;
+}
+.nav-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+    align-items: left;
+}
+.nav-links {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+.home, .active, .connect {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    height: 28px;
+    width: 75px;
+    color: white;
+    border: solid;
+    border-color: black;
+    background-color: rgb(71, 179, 241);
+    box-shadow: 2px 2px black;
+}
